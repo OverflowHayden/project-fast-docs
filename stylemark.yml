@@ -1,7 +1,7 @@
 name: Project FAST
 
 excludeDir:
-  - dist
+  - docs
   - src
 
 assets:
