@@ -6,13 +6,13 @@ category: Getting Started
 ### Quick start
 Add the following stylesheet `<link>` to your `<head>` before all other stylesheets.
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/project-fast@2.0.0/dist/css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/project-fast@2.0.0-beta.1/dist/css/style.css">
 ```
 
 Add the following `script` before the the closing `</body>` tag. No jQuery required!
 ```
-<script src="https://cdn.jsdelivr.net/npm/project-fast@2.0.0/dist/js/bundle.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/project-fast@2.0.0/dist/js/app.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/project-fast@2.0.0-beta.1/dist/js/bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/project-fast@2.0.0-beta.1/dist/js/app.min.js"></script>
 ```
 
 ### How to install
@@ -38,7 +38,7 @@ And `resources/sass/app.scss`:
 @import "variables";
 
 // Project FAST
-@import '~project-fast/src/assets/scss/includes.scss';
+@import '~project-fast/src/scss/includes.scss';
 ```
 
 Add the following code to `resources/js/app.js`:
