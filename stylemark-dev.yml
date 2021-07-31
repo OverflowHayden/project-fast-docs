@@ -1,0 +1,31 @@
+name: Project FAST
+
+excludeDir:
+  - docs
+  - src
+
+assets:
+
+theme:
+  logo: src/logo.svg
+  sidebar:
+    background: "#F37748"
+    textColor: "#fff"
+
+examples:
+  headHtml: |
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://project-fast.test/dist/css/style.css">
+    <style>
+    body { padding: 10px; }
+    </style>
+
+  bodyHtml: |
+    {html}
+    <script src="https://project-fast.test/dist/js/bundle.js"></script>
+    <script src="https://project-fast.test/dist/js/app.min.js"></script>
+
+order:
+  - +Getting Started
+  - +General

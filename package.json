@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "dev": "stylemark -i src -o docs -c stylemark.yml",
-    "watch": "stylemark -i src -o docs -c stylemark.yml -w 1000 -b"
+    "dev": "stylemark -i src -o build -c stylemark-dev.yml",
+    "watch": "stylemark -i src -o build -c stylemark-dev.yml -w 1000 -b",
+    "prod": "stylemark -i src -o docs -c stylemark.yml"
   },
   "dependencies": {
     "stylemark": "^3.1.7"
