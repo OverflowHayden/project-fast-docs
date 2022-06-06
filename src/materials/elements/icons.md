@@ -6,16 +6,16 @@ category: Elements
 Powered by Iconify. Click [here](https://iconify.design/icon-sets/mdi/) for more info.
 
 ```icons.html
-<iconify-icon data-icon="mdi:home"></iconify-icon>
-<iconify-icon data-icon="mdi:account"></iconify-icon>
-<iconify-icon data-icon="mdi:cloud-download"></iconify-icon>
-<iconify-icon data-icon="mdi:bitcoin"></iconify-icon>
-<iconify-icon data-icon="mdi:calendar"></iconify-icon>
-<iconify-icon data-icon="mdi:email"></iconify-icon>
-<iconify-icon data-icon="mdi:folder"></iconify-icon>
-<iconify-icon data-icon="mdi:pencil"></iconify-icon>
-<iconify-icon data-icon="mdi:file-multiple"></iconify-icon>
-<iconify-icon data-icon="mdi:delete"></iconify-icon>
+<span class="iconify" data-icon="mdi:home"></span>
+<span class="iconify" data-icon="mdi:account"></span>
+<span class="iconify" data-icon="mdi:cloud-download"></span>
+<span class="iconify" data-icon="mdi:bitcoin"></span>
+<span class="iconify" data-icon="mdi:calendar"></span>
+<span class="iconify" data-icon="mdi:email"></span>
+<span class="iconify" data-icon="mdi:folder"></span>
+<span class="iconify" data-icon="mdi:pencil"></span>
+<span class="iconify" data-icon="mdi:file-multiple"></span>
+<span class="iconify" data-icon="mdi:delete"></span>
 ```
 ```icons.js
 import Iconify from '@iconify/iconify';

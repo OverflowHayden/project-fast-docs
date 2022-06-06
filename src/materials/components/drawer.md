@@ -20,17 +20,17 @@ The header image can be changed with the SASS variable: `$drawer-image`. If you 
             <ul class="list">
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:home"></iconify-icon>Dashboard
+                        <span class="iconify list__item-graphic" data-icon="mdi:home"></span>Dashboard
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:account-multiple"></iconify-icon>Customers
+                        <span class="iconify list__item-graphic" data-icon="mdi:account-multiple"></span>Customers
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:package"></iconify-icon>Products
+                        <span class="iconify list__item-graphic" data-icon="mdi:package"></span>Products
                     </a>
                     <ul class="list">
                         <li class="list__item">
@@ -52,7 +52,7 @@ The header image can be changed with the SASS variable: `$drawer-image`. If you 
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:cart"></iconify-icon>Orders
+                        <span class="iconify list__item-graphic" data-icon="mdi:cart"></span>Orders
                     </a>
                 </li>
                 <li class="list__divider"></li>
@@ -61,19 +61,19 @@ The header image can be changed with the SASS variable: `$drawer-image`. If you 
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:help-circle"></iconify-icon>Help & Feedback
+                        <span class="iconify list__item-graphic" data-icon="mdi:help-circle"></span>Help & Feedback
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:information"></iconify-icon>About
+                        <span class="iconify list__item-graphic" data-icon="mdi:information"></span>About
                     </a>
                 </li>
             </ul>
             <ul class="list list--bottom">
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:settings"></iconify-icon>Settings
+                        <span class="iconify list__item-graphic" data-icon="mdi:settings"></span>Settings
                     </a>
                 </li>
             </ul>
@@ -93,22 +93,22 @@ The header image can be changed with the SASS variable: `$drawer-image`. If you 
             <ul class="list">
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:home"></iconify-icon>Dashboard
+                        <span class="iconify list__item-graphic" data-icon="mdi:home"></span>Dashboard
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:account-multiple"></iconify-icon>Customers
+                        <span class="iconify list__item-graphic" data-icon="mdi:account-multiple"></span>Customers
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:package"></iconify-icon>Products
+                        <span class="iconify list__item-graphic" data-icon="mdi:package"></span>Products
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:cart"></iconify-icon>Orders
+                        <span class="iconify list__item-graphic" data-icon="mdi:cart"></span>Orders
                     </a>
                 </li>
                 <li class="list__divider"></li>
@@ -117,19 +117,19 @@ The header image can be changed with the SASS variable: `$drawer-image`. If you 
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:help-circle"></iconify-icon>Help & Feedback
+                        <span class="iconify list__item-graphic" data-icon="mdi:help-circle"></span>Help & Feedback
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:information"></iconify-icon>About
+                        <span class="iconify list__item-graphic" data-icon="mdi:information"></span>About
                     </a>
                 </li>
             </ul>
             <ul class="list list--bottom">
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:settings"></iconify-icon>Settings
+                        <span class="iconify list__item-graphic" data-icon="mdi:settings"></span>Settings
                     </a>
                 </li>
             </ul>
@@ -145,30 +145,47 @@ The header image can be changed with the SASS variable: `$drawer-image`. If you 
         <header class="drawer__header">
             <span class="drawer__header-text">Drawer header</span>
             <button class="drawer__nav-toggle">
-                <iconify-icon data-icon="mdi:menu"></iconify-icon>
-                <iconify-icon data-icon="mdi:menu-open"></iconify-icon>
+                <span class="iconify" data-icon="mdi:menu"></span>
+                <span class="iconify" data-icon="mdi:menu-open"></span>
             </button>
         </header>
         <nav class="drawer__content">
             <ul class="list">
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:home"></iconify-icon>Dashboard
+                        <span class="iconify list__item-graphic" data-icon="mdi:home"></span>Dashboard
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:account-multiple"></iconify-icon>Customers
+                        <span class="iconify list__item-graphic" data-icon="mdi:account-multiple"></span>Customers
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:package"></iconify-icon>Products
+                        <span class="iconify list__item-graphic" data-icon="mdi:package"></span>Products
                     </a>
+                    <ul class="list">
+                        <li class="list__item">
+                            <a href="#" class="list__item-text">
+                                Product 1
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#" class="list__item-text">
+                                Product 2
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#" class="list__item-text">
+                                Product 3
+                            </a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:cart"></iconify-icon>Orders
+                        <span class="iconify list__item-graphic" data-icon="mdi:cart"></span>Orders
                     </a>
                 </li>
                 <li class="list__divider"></li>
@@ -177,19 +194,19 @@ The header image can be changed with the SASS variable: `$drawer-image`. If you 
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:help-circle"></iconify-icon>Help & Feedback
+                        <span class="iconify list__item-graphic" data-icon="mdi:help-circle"></span>Help & Feedback
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:information"></iconify-icon>About
+                        <span class="iconify list__item-graphic" data-icon="mdi:information"></span>About
                     </a>
                 </li>
             </ul>
             <ul class="list list--bottom">
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:settings"></iconify-icon>Settings
+                        <span class="iconify list__item-graphic" data-icon="mdi:settings"></span>Settings
                     </a>
                 </li>
             </ul>
@@ -215,30 +232,47 @@ The drawer will change to temporary on mobile
         <header class="drawer__header">
             <span class="drawer__header-text">Drawer header</span>
             <button class="drawer__nav-toggle">
-                <iconify-icon data-icon="mdi:menu"></iconify-icon>
-                <iconify-icon data-icon="mdi:menu-open"></iconify-icon>
+                <span class="iconify" data-icon="mdi:menu"></span>
+                <span class="iconify" data-icon="mdi:menu-open"></span>
             </button>
         </header>
         <nav class="drawer__content">
             <ul class="list">
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:home"></iconify-icon>Dashboard
+                        <span class="iconify list__item-graphic" data-icon="mdi:home"></span>Dashboard
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:account-multiple"></iconify-icon>Customers
+                        <span class="iconify list__item-graphic" data-icon="mdi:account-multiple"></span>Customers
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:package"></iconify-icon>Products
+                        <span class="iconify list__item-graphic" data-icon="mdi:package"></span>Products
                     </a>
+                    <ul class="list">
+                        <li class="list__item">
+                            <a href="#" class="list__item-text">
+                                Product 1
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#" class="list__item-text">
+                                Product 2
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#" class="list__item-text">
+                                Product 3
+                            </a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:cart"></iconify-icon>Orders
+                        <span class="iconify list__item-graphic" data-icon="mdi:cart"></span>Orders
                     </a>
                 </li>
                 <li class="list__divider"></li>
@@ -247,19 +281,19 @@ The drawer will change to temporary on mobile
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:help-circle"></iconify-icon>Help & Feedback
+                        <span class="iconify list__item-graphic" data-icon="mdi:help-circle"></span>Help & Feedback
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:information"></iconify-icon>About
+                        <span class="iconify list__item-graphic" data-icon="mdi:information"></span>About
                     </a>
                 </li>
             </ul>
             <ul class="list list--bottom">
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:settings"></iconify-icon>Settings
+                        <span class="iconify list__item-graphic" data-icon="mdi:settings"></span>Settings
                     </a>
                 </li>
             </ul>
@@ -285,30 +319,47 @@ The drawer will change to temporary on mobile
         <header class="drawer__header">
             <span class="drawer__header-text">Drawer header</span>
             <button class="drawer__nav-toggle">
-                <iconify-icon data-icon="mdi:menu-open"></iconify-icon>
-                <iconify-icon data-icon="mdi:menu"></iconify-icon>
+                <span class="iconify" data-icon="mdi:menu"></span>
+                <span class="iconify" data-icon="mdi:menu-open"></span>
             </button>
         </header>
         <nav class="drawer__content">
             <ul class="list">
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:home"></iconify-icon>Dashboard
+                        <span class="iconify list__item-graphic" data-icon="mdi:home"></span>Dashboard
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:account-multiple"></iconify-icon>Customers
+                        <span class="iconify list__item-graphic" data-icon="mdi:account-multiple"></span>Customers
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:package"></iconify-icon>Products
+                        <span class="iconify list__item-graphic" data-icon="mdi:package"></span>Products
                     </a>
+                    <ul class="list">
+                        <li class="list__item">
+                            <a href="#" class="list__item-text">
+                                Product 1
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#" class="list__item-text">
+                                Product 2
+                            </a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#" class="list__item-text">
+                                Product 3
+                            </a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:cart"></iconify-icon>Orders
+                        <span class="iconify list__item-graphic" data-icon="mdi:cart"></span>Orders
                     </a>
                 </li>
                 <li class="list__divider"></li>
@@ -317,19 +368,19 @@ The drawer will change to temporary on mobile
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:help-circle"></iconify-icon>Help & Feedback
+                        <span class="iconify list__item-graphic" data-icon="mdi:help-circle"></span>Help & Feedback
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:information"></iconify-icon>About
+                        <span class="iconify list__item-graphic" data-icon="mdi:information"></span>About
                     </a>
                 </li>
             </ul>
             <ul class="list list--bottom">
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:settings"></iconify-icon>Settings
+                        <span class="iconify list__item-graphic" data-icon="mdi:settings"></span>Settings
                     </a>
                 </li>
             </ul>

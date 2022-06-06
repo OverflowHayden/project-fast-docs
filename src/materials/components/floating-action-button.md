@@ -12,30 +12,30 @@ Fast.Fab();
 ## Default
 ```fab.html
 <div class="fab">
-    <a href="#" class="fab__button"><iconify-icon data-icon="mdi:plus"></iconify-icon></a>
+    <a href="#" class="fab__button"><span class="iconify" data-icon="mdi:plus"></span></a>
 </div>
 ```
 
 ### Centered
 ```fab-center.html
 <div class="fab fab--center">
-    <a href="#" class="fab__button"><iconify-icon data-icon="mdi:plus"></iconify-icon></a>
+    <a href="#" class="fab__button"><span class="iconify" data-icon="mdi:plus"></span></a>
 </div>
 ```
 
 ### FAB menu
 ```fab-menu.html
 <div class="fab fab--menu" data-tippy-content="Add" tabindex="1">
-    <a href="#" class="fab__button"><iconify-icon data-icon="mdi:plus"></iconify-icon></a>
+    <a href="#" class="fab__button"><span class="iconify" data-icon="mdi:plus"></span></a>
     <ul class="fab__list">
         <li class="fab__list-item">
-            <a href="#"><span class="fab__text">Action 1</span><span class="fab__icon"><iconify-icon data-icon="mdi:pencil"></iconify-icon></span></a>
+            <a href="#"><span class="fab__text">Action 1</span><span class="fab__icon"><span class="iconify" data-icon="mdi:pencil"></span></span></a>
         </li>
         <li class="fab__list-item">
-            <a href="#"><span class="fab__text">Action 2</span><span class="fab__icon"><iconify-icon data-icon="mdi:file-multiple"></iconify-icon></span></a>
+            <a href="#"><span class="fab__text">Action 2</span><span class="fab__icon"><span class="iconify" data-icon="mdi:file-multiple"></span></span></a>
         </li>
         <li class="fab__list-item">
-            <a href="#"><span class="fab__text">Action 3</span><span class="fab__icon"><iconify-icon data-icon="mdi:delete"></iconify-icon></span></a>
+            <a href="#"><span class="fab__text">Action 3</span><span class="fab__icon"><span class="iconify" data-icon="mdi:delete"></span></span></a>
         </li>
     </ul>
 </div>

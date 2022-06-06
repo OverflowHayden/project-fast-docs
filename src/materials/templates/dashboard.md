@@ -9,30 +9,30 @@ category: Templates
         <header class="drawer__header">
             <span class="drawer__header-text">Project FAST</span>
             <button class="drawer__nav-toggle">
-                <iconify-icon data-icon="mdi:menu"></iconify-icon>
-                <iconify-icon data-icon="mdi:menu-open"></iconify-icon>
+                <span class="iconify" data-icon="mdi:menu"></span>
+                <span class="iconify" data-icon="mdi:menu-open"></span>
             </button>
         </header>
         <nav class="drawer__content">
             <ul class="list">
                 <li class="list__item">
                     <a href="dashboard-dashboard.html" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:home"></iconify-icon>Dashboard
+                        <span class="iconify list__item-graphic" data-icon="mdi:home"></span>Dashboard
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="overview-overview.html" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:account-multiple"></iconify-icon>Customers
+                        <span class="iconify list__item-graphic" data-icon="mdi:account-multiple"></span>Customers
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:package"></iconify-icon>Products
+                        <span class="iconify list__item-graphic" data-icon="mdi:package"></span>Products
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:cart"></iconify-icon>Orders
+                        <span class="iconify list__item-graphic" data-icon="mdi:cart"></span>Orders
                     </a>
                 </li>
                 <li class="list__divider"></li>
@@ -41,19 +41,19 @@ category: Templates
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:help-circle"></iconify-icon>Help & Feedback
+                        <span class="iconify list__item-graphic" data-icon="mdi:help-circle"></span>Help & Feedback
                     </a>
                 </li>
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:information"></iconify-icon>About
+                        <span class="iconify list__item-graphic" data-icon="mdi:information"></span>About
                     </a>
                 </li>
             </ul>
             <ul class="list list--bottom">
                 <li class="list__item">
                     <a href="#" class="list__item-text">
-                        <iconify-icon class="list__item-graphic" data-icon="mdi:settings"></iconify-icon>Settings
+                        <span class="iconify list__item-graphic" data-icon="mdi:settings"></span>Settings
                     </a>
                 </li>
             </ul>
@@ -61,13 +61,13 @@ category: Templates
     </div>
 </aside>
 <main class="main">
-    <header class="app-bar app-bar--fixed">
-        <span class="app-bar__icon"><iconify-icon data-icon="mdi:home"></iconify-icon></span>
+    <header class="app-bar">
+        <span class="app-bar__icon"><span class="iconify" data-icon="mdi:home"></span></span>
         <span class="app-bar__title">Dashboard</span>
         <div class="app-bar__actions">
-            <a href="#" class="button button--icon button--text"><iconify-icon data-icon="mdi:printer"></iconify-icon></a>
+            <a href="#" class="button button--icon button--text"><span class="iconify" data-icon="mdi:printer"></span></a>
             <div class="menu">
-                <a href="#" class="button button--icon button--text menu__toggle" data-menu="#menu"><iconify-icon data-icon="mdi:dots-vertical"></iconify-icon></a>
+                <a href="#" class="button button--icon button--text menu__toggle" data-menu="#menu"><span class="iconify" data-icon="mdi:dots-vertical"></span></a>
                 <ul id="menu" class="menu__list">
                     <li class="menu__list-item"><a href="#">Menu option 1</a></li>
                     <li class="menu__list-item"><a href="#">Menu option 2</a></li>
@@ -83,11 +83,9 @@ category: Templates
         <div class="grid">
             <div class="col-desk-6 col-tab-12 col-mob-4">
                 <h3>Chart</h2>
-                <div class="grid">
-                    <div class="card col-desk-12">
-                        <div class="card__content">
-                            <div id="chart_div"></div>
-                        </div>
+                <div class="card">
+                    <div class="card__content">
+                        <div id="chart_div"></div>
                     </div>
                 </div>
             </div>
@@ -152,35 +150,35 @@ category: Templates
                             <td>2 hours ago</td>
                             <td>Pending</td>
                             <td align="right">&euro; 78,65</td>
-                            <td><a href="#" class="button button--icon"><iconify-icon data-icon="mdi:eye"></iconify-icon></a></td>
+                            <td><a href="#" class="button button--icon"><span class="iconify" data-icon="mdi:eye"></span></a></td>
                         </tr>
                         <tr>
                             <td>#3004 Jon Scott</td>
                             <td>10 hours ago</td>
                             <td>Shipped</td>
                             <td align="right">&euro; 34,50</td>
-                            <td><a href="#" class="button button--icon"><iconify-icon data-icon="mdi:eye"></iconify-icon></a></td>
+                            <td><a href="#" class="button button--icon"><span class="iconify" data-icon="mdi:eye"></span></a></td>
                         </tr>
                         <tr>
                             <td>#3003 Virginia Robbins</td>
                             <td>1 day ago</td>
                             <td>Completed</td>
                             <td align="right">&euro; 120,10</td>
-                            <td><a href="#" class="button button--icon"><iconify-icon data-icon="mdi:eye"></iconify-icon></a></td>
+                            <td><a href="#" class="button button--icon"><span class="iconify" data-icon="mdi:eye"></span></a></td>
                         </tr>
                         <tr>
                             <td>#3002 Elise Heath</td>
                             <td>2 days ago</td>
                             <td>Completed</td>
                             <td align="right">&euro; 80,90</td>
-                            <td><a href="#" class="button button--icon"><iconify-icon data-icon="mdi:eye"></iconify-icon></a></td>
+                            <td><a href="#" class="button button--icon"><span class="iconify" data-icon="mdi:eye"></span></a></td>
                         </tr>
                         <tr>
                             <td>#3001 Tahmine Marriott</td>
                             <td>July 2nd, 2018</td>
                             <td>Completed</td>
                             <td align="right">&euro; 15,95</td>
-                            <td><a href="#" class="button button--icon"><iconify-icon data-icon="mdi:eye"></iconify-icon></a></td>
+                            <td><a href="#" class="button button--icon"><span class="iconify" data-icon="mdi:eye"></span></a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -189,13 +187,13 @@ category: Templates
     </div>
 </main>
 <div class="fab fab--menu" data-tippy-content="Add customer" tabindex="1">
-    <a href="single-add.html" class="fab__button"><iconify-icon data-icon="mdi:plus"></iconify-icon></a>
+    <a href="single-add.html" class="fab__button"><span class="iconify" data-icon="mdi:plus"></span></a>
     <ul class="fab__list">
         <li class="fab__list-item">
-            <a href="#"><span class="fab__text">Add product</span><span class="fab__icon"><iconify-icon data-icon="mdi:package"></iconify-icon></span></a>
+            <a href="#"><span class="fab__text">Add product</span><span class="fab__icon"><span class="iconify" data-icon="mdi:package"></span></span></a>
         </li>
         <li class="fab__list-item">
-            <a href="#"><span class="fab__text">Add order</span><span class="fab__icon"><iconify-icon data-icon="mdi:cart"></iconify-icon></span></a>
+            <a href="#"><span class="fab__text">Add order</span><span class="fab__icon"><span class="iconify" data-icon="mdi:cart"></span></span></a>
         </li>
     </ul>
 </div>

@@ -18,15 +18,15 @@ category: Elements
 ### Leading icon
 ```chips-icon.html
 <div class="chip">
-    <span class="chip__icon"><iconify-icon data-icon="mdi:account-circle"></iconify-icon></span>
+    <span class="chip__icon"><span class="iconify" data-icon="mdi:account-circle"></span></span>
     <span class="chip__text">Chip</span>
 </div>
 <div class="chip chip--primary">
-    <span class="chip__icon"><iconify-icon data-icon="mdi:calendar"></iconify-icon></span>
+    <span class="chip__icon"><span class="iconify" data-icon="mdi:calendar"></span></span>
     <span class="chip__text">Chip primary</span>
 </div>
 <div class="chip chip--alt">
-    <span class="chip__icon"><iconify-icon data-icon="mdi:cloud-download"></iconify-icon></span>
+    <span class="chip__icon"><span class="iconify" data-icon="mdi:cloud-download"></span></span>
     <span class="chip__text">Chip alt</span>
 </div>
 ```
@@ -35,15 +35,15 @@ category: Elements
 ```chips-filter.html
 <div class="chip">
     <span class="chip__text">Chip</span>
-    <a href="#" class="chip__filter"><iconify-icon data-icon="mdi:close-circle"></iconify-icon></a>
+    <a href="#" class="chip__filter"><span class="iconify" data-icon="mdi:close-circle"></span></a>
 </div>
 <div class="chip chip--primary">
     <span class="chip__text">Chip primary</span>
-    <a href="#" class="chip__filter"><iconify-icon data-icon="mdi:close-circle"></iconify-icon></a>
+    <a href="#" class="chip__filter"><span class="iconify" data-icon="mdi:close-circle"></span></a>
 </div>
 <div class="chip chip--alt">
     <span class="chip__text">Chip alt</span>
-    <a href="#" class="chip__filter"><iconify-icon data-icon="mdi:close-circle"></iconify-icon></a>
+    <a href="#" class="chip__filter"><span class="iconify" data-icon="mdi:close-circle"></span></a>
 </div>
 ```
 
